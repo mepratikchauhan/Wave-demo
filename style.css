@@ -104,7 +104,7 @@ h3{
     color: #fff;
     font-size: 10px;
 }
-@media (max-width:500px) {
+@media (min-height:500px) and (max-width:400px) {
     body{
         width: 100vw;
         height: 110vh;
@@ -121,8 +121,10 @@ h3{
         text-align: center;
     }
     .content{
-        margin: 30vw 35vw;
+        margin: 80vw  35vw 0 30vw;
         width: 25vw;
+        display: flex;
+        flex-direction: column;
     }
     .detail{
         margin: 30vw 2vw;
@@ -134,7 +136,7 @@ h3{
         margin-left: 8vw;
     }
     .img-head{
-        width: 50vw;
+        width: 60vw;
         position: absolute;
         top: 152%;
     }
@@ -149,7 +151,7 @@ h3{
         font-size: 45px;
     }
     .bag{
-        top: 160%;
+        top: 165%;
         left: 58%;
     }
 }
